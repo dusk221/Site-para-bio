@@ -36,11 +36,6 @@ header{
     text-align: center;
     margin-bottom: 40px;
 }
-header img{
-    max-width: 120px;
-    margin-bottom: 20px;
-    border-radius: 50%;
-}
 header h1{
     font-size: 2em;
     margin-bottom: 10px;
@@ -66,23 +61,15 @@ cursor: pointer;
 color: white;
 transition: .2s;
 }
+.produtos{
+width: 40px;
+height: auto;
+}
+
 a.link i{
 font-size: 1.5em;
 }
-a.link button:hover, footer a.btn-footer:hover{
+a.link button:hover {
     transform: scale(1.05);
 }
-footer{
-    text-align: center;
-    margin: 30px;
-}
-footer a.btn-footer{
-    width: 60px;
-    height: 60px;
-    display: inline-block;
-    font-size: 2em;
-    line-height: 60px;
-    border-radius: 50%;
-    margin: 0 10px;
-    transition: .2s;
-}
+
